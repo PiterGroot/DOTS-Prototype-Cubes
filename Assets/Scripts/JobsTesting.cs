@@ -97,7 +97,7 @@ public class JobsTesting : MonoBehaviour {
     {
         public NativeArray<float> moveYArray;
         public float deltaTime;
-        public float randomValue;
+     
         public void Execute(int index, TransformAccess transform)
         {
             transform.position += new Vector3(0, moveYArray[index] * deltaTime, 0f);
